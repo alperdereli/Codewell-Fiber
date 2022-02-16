@@ -6,3 +6,130 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+.btn {
+    background: #4d13d1;
+    color:#fff;
+    padding: 0.75rem 1.5rem;
+    font-weight: 700;
+}
+#header {
+    background: #fbf8f3;
+}
+#header a {
+    color:#000;
+    font-size: 18px;
+}
+#header .navbar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#header .navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+#header .nav-link {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+#header a.btn {
+    margin-left: 1rem;
+    color:#fff;
+}
+#heroSection {
+    background: #fbf8f3;
+    padding: 40px 0 140px;
+}
+.heroText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroRating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.heroRating .stars {
+    display: flex;
+    margin-right: 11px;
+}
+.heroRating .stars img {
+    margin-right: 7px;
+}
+.heroTitle {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.heroDesc {
+    margin-bottom: 25px;
+}
+.heroLinks {
+    margin-bottom: 25px;
+}
+.heroLinks .button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 35px;
+}
+.heroLinks .link {
+    color: #4d13d1;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.heroEndline {
+    display: flex;
+}
+.heroEndline span {
+    background: url(img/Checkmark.svg) no-repeat left center;
+    padding-left: 32px;
+    margin-right: 20px;
+}
+#whySection {
+    padding: 80px 0;
+}
+#whySection .question {
+    color:#4d13d1;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sectionTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+#whySection .colImg {
+    margin-bottom: 12px;
+}
+#whySection .colTitle {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#whySection .colDesc {
+    font-size: 18px;
+}
+#promoSection {
+    margin-bottom: 80px;
+}
+.promoWrapper {
+    background: #4d13d1 url(img/Page-Image.jpg) no-repeat bottom right 45px;
+    background-size: 50% auto;
+    border-radius: 20px;
+    padding:135px 45px;
+    color: #fff;
+}
+#promoSection .sectionTitle {
+    margin-bottom: 20px;
+}
+#promoSection .promoDesc {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#promoSection .promoBtn {
+    background:#fff;
+    color: #4d13d1;
+}
